@@ -1,0 +1,23 @@
+{
+  "name": "tipos",
+  "version": "0.0.0",
+  "description": "a small library to clean and validate data",
+  "main": "dist/tipos.js",          
+  "umd:main": "dist/tipos.umd.js",  
+  "module": "dist/tipos.mjs",     
+  "source": "src/index.js",   
+  "author": "Matias Trujillo Olivares",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UpperCod/tipos.git"
+  },
+  "scripts": {
+    "watch" : "microbundle -w",
+    "build" : "microbundle -b",
+    "prepare" : "npm run build"
+  },
+  "devDependencies": {
+    "microbundle": "^0.6.0"
+  }
+}
